@@ -1,6 +1,10 @@
 # ami-jenkins
 Repository for Jenkins AMI
 
+Secrets from root account:
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+
 Instructions for using packer:
 - [packer docs](https://learn.hashicorp.com/collections/packer/getting-started)
 - Install packer on Linux:

@@ -23,8 +23,7 @@
         "ami_description": "Jenkins AMI for CSYE 7125 - Spring 2021",
         "tags": [
           {
-            "key": "Name",
-            "value": "Jenkins_AMI"
+            "Name": "Jenkins_AMI"
           }
         ],
         "launch_block_device_mappings": [

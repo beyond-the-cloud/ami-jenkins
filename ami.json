@@ -45,7 +45,10 @@
         "inline": [
           "sleep 30",
           "sudo apt update",
-          "sudo apt install golang ruby wget nginx -y"
+          "sudo apt install wget openjdk-8-jdk -y",
+          "wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -",
+          "sudo apt-add-repository \"deb http://pkg.jenkins-ci.org/debian binary/\"",
+          "sudo apt install jenkins certbot nginx python3-certbot-nginx -y"
         ]
       }
     ]

@@ -6,7 +6,7 @@
         "subnet_id": "",
         "source_ami": "ami-0885b1f6bd170450c",
         "ssh_username": "ubuntu",
-        "ami_users": ""
+        "ami_users": "058237309488"
     },
     "builders": [
       {
@@ -48,7 +48,7 @@
           "sudo apt install wget openjdk-8-jdk -y",
           "wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -",
           "sudo apt-add-repository \"deb http://pkg.jenkins-ci.org/debian binary/\"",
-          "sudo apt install jenkins certbot nginx python3-certbot-nginx -y"
+          "sudo apt install jenkins certbot nginx python3-certbot-nginx letsencrypt -y"
         ]
       }
     ]

@@ -48,7 +48,9 @@
           "sudo apt install wget openjdk-8-jdk -y",
           "wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -",
           "sudo apt-add-repository \"deb http://pkg.jenkins-ci.org/debian binary/\"",
-          "sudo apt install jenkins certbot nginx python3-certbot-nginx letsencrypt -y"
+          "sudo apt install jenkins certbot nginx python3-certbot-nginx letsencrypt -y",
+          "sudo apt install docker.io -y",
+          "sudo usermod -a -G docker jenkins"
         ]
       }
     ]
